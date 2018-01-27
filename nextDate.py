@@ -34,7 +34,7 @@ def nextDate(day,month,year):
 
 	elif day == last_day(month,year):
 		day=1
-		month = (month%12)+1
+		month +=1
 		
 	elif day >=1 and day < last_day(month,year):
 		day +=1
